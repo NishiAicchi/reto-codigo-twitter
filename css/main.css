@@ -2,25 +2,32 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Arial, sans-serif;
+    font-family: 'Segoe UI', Arial, sans-serif;  
+}
+body {
+    background-image: url('../assets/images/fondo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 /* Clase Reutilizable */
 .size-box {
     width: 360px;
     height: 46px;
 }
+/* Clases especificas */
 .nav-container {
     width: 100%;
     height: 46px;
+    outline: 1px solid green;
 }
 nav {
-    outline: 1px solid red;
     width: 100%;
     height: 46px;
     display: block;
     position: fixed;
     padding-left: 36px;
     padding-right: 36px;
+    background-color: white;
 }
 #first-section {
     float: left;
@@ -88,7 +95,6 @@ nav {
     float: right;
 }
 .extra-nav li:last-of-type {
-    outline: 1px solid yellow;
     margin-left: 16px;
 
 }
@@ -102,4 +108,38 @@ nav {
     padding: 6px 16px;
     text-align: center;
     background-color: transparent;
+}
+.profile-left {
+    outline: 1px solid blue;
+    width: 350px;
+    height: 540px;
+    margin-left: 60px;
+    margin-top: 20px;
+}  
+.profile-icon {
+    outline: 1px solid yellow;
+    margin: 25px;
+    padding-top: 5px;
+} 
+.profile-icon img { 
+    width: 300px;
+    height: 300px;
+    border-radius: 170px;
+}
+.profile-info {
+    text-align: center;
+    font-weight: initial;
+    line-height: 20px;
+    color: #78858e;
+    height: 80px;
+    margin: 15px;
+}
+.profile-info::first-line {
+    font-size: 26px;
+}
+.profile-info:last-of-type {
+    font-size: 20px;
+}
+.twitter-box-center {
+    float: right; 
 }
