@@ -5,8 +5,8 @@
     font-family: 'Segoe UI', Arial, sans-serif;  
 }
 body {
-    background-image: url('../assets/images/fondo.jpg');
-    background-repeat: no-repeat;
+    background-image: url('../assets/images/wallup.jpg');
+    background-repeat: repeat;
     background-position: center;
 }
 /* Clase Reutilizable */
@@ -18,7 +18,6 @@ body {
 .nav-container {
     width: 100%;
     height: 46px;
-    outline: 1px solid green;
 }
 nav {
     width: 100%;
@@ -48,6 +47,8 @@ nav {
     margin-top: 12px;
     margin-left: 10px;
     padding: 0;
+    font-size: 18px;
+    text-align: center;
 }
 .text {
     float: left;
@@ -65,11 +66,12 @@ nav {
 #second-section {
     padding-left: 10px;
     display: block;
-    position: relative;
+    position: fixed;
     float: right;
+    left: 965px;
 }
 #search-container {
-    width: 236px;
+    width: 190px;
     height: 46px;
     margin: 0px;
     display: block;
@@ -88,6 +90,15 @@ nav {
     padding: 8px 32px 8px 12px;
     border: 1px;
 }
+.search-button span{
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    top: 14px;
+    right: 212px;
+    text-align: center;
+    
+}
 .extra-nav li {
     list-style: none;
     height: 100%;
@@ -96,28 +107,43 @@ nav {
 }
 .extra-nav li:last-of-type {
     margin-left: 16px;
-
+}
+.profile-user {
+    width: 10px;
+    height: 120%;  
+    right: 50px;
+}
+.user-circle-icon img {
+    border-radius: 90px;
+    position: fixed;
+    width: 38px;
+    height: 38px;
+    right: 139px;
 }
 .tweet-box {
+    background-color: hsl(204, 94%, 42%);
     border: 1px;
     border-radius: 100px;
     box-shadow: none;
+    color: #ffffff;
     font-size: 14px;
     font-weight: bold;
     line-height: 20px;
-    padding: 6px 16px;
+    padding: 6px 18px;
     text-align: center;
-    background-color: transparent;
+    
 }
 .profile-left {
-    outline: 1px solid blue;
+    position: static;
     width: 350px;
     height: 540px;
-    margin-left: 60px;
+    margin-left: 85px;
     margin-top: 20px;
+    background-color: white;
+    border: 2px solid hsl(204, 94%, 42%);
 }  
 .profile-icon {
-    outline: 1px solid yellow;
+    background-color: transparent;
     margin: 25px;
     padding-top: 5px;
 } 
@@ -127,10 +153,11 @@ nav {
     border-radius: 170px;
 }
 .profile-info {
+    background-color: #0392f1;
     text-align: center;
-    font-weight: initial;
-    line-height: 20px;
-    color: #78858e;
+    font-weight: bold;
+    line-height: 40px;
+    color: #ffffff;
     height: 80px;
     margin: 15px;
 }
@@ -140,6 +167,23 @@ nav {
 .profile-info:last-of-type {
     font-size: 20px;
 }
-.twitter-box-center {
-    float: right; 
+.twitterbox-center {
+    display: block;
+    position: relative;
+    height: 200px; 
+    width: 500px; 
+    left: 600px;
+    bottom: 85px; 
 }
+.box-central {
+    background-color: #ffffff75;
+    height: 170px;
+}
+#message-creator {
+    position: static;
+    border: 1px solid #0392f1;
+    width: 460px;
+    height: 100px;
+    margin: 18px;
+}
+

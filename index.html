@@ -23,15 +23,15 @@
             </div>
             <!-- segunda seccion de la barra navegadora: busqueda, usuario y boton de twittear -->
             <div id="second-section" class="size-box">
-                <div id="search-container" role="search"><input type="text" class="search-bar" placeholder="Buscar en Twitter"><span class="icon-search"></span></div>
+                <div id="search-container" role="search"><input type="text" class="search-bar" placeholder="Buscar en Twitter"><div class="search-button"><span class="icon-search"></span></div></div>
                 <ul class="extra-nav">
-                    <li><a href="#" class="profile-user"><span class="icon-user-circle"></span></a></li>
                     <li><button class="tweet-box">Twittear</button></li>
+                    <li><a href="#" class="profile-user"><span class="user-circle-icon"><img src="assets/images/profile.jpg" alt="photo"></span></a></li>
                 </ul>
             </div>
         </nav>
     </div>
-    <!-- Contenido principal: reseña de usuario y area de twitteo -->
+    <!-- Contenido principal: reseña de usuario -->
     <main id="twitter-box">
         <section class="profile-box">
         <div class="profile-left">
@@ -41,12 +41,15 @@
                 <br>   
                 <span>@NishiAicchi</span>
             </div>
-        </div>     
-            <div class="twitter-box-center">
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        </section>
+        <!-- area de twiteo -->
+        <section class="twitterbox-center">   
+            <div class="box-central">
+                <textarea name="tweet-box" id="message-creator" placeholder="¿qué está pasando?"></textarea></div>
             </div>
         </section>
     </main>
-<script src="js/app.js"></script>
+<script src="js/app.js"></script>   
 </body>   
 </html>
