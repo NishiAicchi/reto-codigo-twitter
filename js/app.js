@@ -7,7 +7,7 @@ var tweetButton = document.createElement('button');
 tweetButton.classList.add('stileButton');
 tweetButton.textContent = 'twittear';
 
-document.write(tweetButton);
+
 
 var counter = document.createElement('p');
 counter.classList.add('stilecounter');
