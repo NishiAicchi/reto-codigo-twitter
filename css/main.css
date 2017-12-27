@@ -45,7 +45,6 @@ nav {
     width: 20px;
     height: 20px;
     margin-top: 12px;
-    margin-left: 10px;
     padding: 0;
     font-size: 18px;
     text-align: center;
@@ -64,11 +63,11 @@ nav {
     color: #78858e;
 }
 #second-section {
-    padding-left: 10px;
+    padding-left: 8px;
     display: block;
     position: fixed;
     float: right;
-    left: 965px;
+    left: 60em;
 }
 #search-container {
     width: 190px;
@@ -106,7 +105,7 @@ nav {
     float: right;
 }
 .extra-nav li:last-of-type {
-    margin-left: 16px;
+    margin-left: 6px;
 }
 .profile-user {
     width: 10px;
@@ -118,7 +117,7 @@ nav {
     position: fixed;
     width: 38px;
     height: 38px;
-    right: 139px;
+    right: 9px;
 }
 .tweet-box {
     background-color: hsl(204, 94%, 42%);
@@ -184,6 +183,12 @@ nav {
     border: 1px solid #0392f1;
     width: 460px;
     height: 100px;
-    margin: 18px;
+    margin: 10px 16px;
+    padding: 8px;
 }
-
+.btn-container {
+    margin: 8px;
+}
+.show-message {
+    background: #ffffff;
+}

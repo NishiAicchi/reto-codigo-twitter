@@ -1,15 +1,20 @@
-// declarando variables
-var twitterBox = document.querySelector('twitterbox-center');
-var boxCentral = document.querySelector('box-central');
-var inputBox = document.querySelector('message-creator');
+window.addEventListener('load', function(e) {
+  e.preventDefault();
+});
 
-var tweetButton = document.createElement('button');
-tweetButton.classList.add('stileButton');
-tweetButton.textContent = 'twittear';
+var insertMessage = document.getElementById('message-creator');
+var btn = document.getElementById('btn');
+var container = document.getElementById('container');
+  
+insertMessage.addEventListener('keyup',showValue
+); 
+btn.addEventListener('click', showMessage);
 
+function showMessage() {
+ 
+};
 
-
-var counter = document.createElement('p');
-counter.classList.add('stilecounter');
-counter.textContent = '140';
-
+function showValue() {
+  var showValue = insertMessage.value;
+  console.log(showValue);
+};
